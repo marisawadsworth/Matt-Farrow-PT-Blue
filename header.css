@@ -1,0 +1,116 @@
+/* Header */
+header {
+    padding: 0px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #168CFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header li{
+  display: inline;
+  padding: 10px;
+}
+
+.nav ul {
+  font-size: 20px;
+  float: inline-start;
+  margin-left: 50px;
+}
+
+.nav .cbutton {
+  background-color: #168CFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 5%;
+
+  /* Display */
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+  height: 80px;                   /* Constrain the height so it doesn't break layout */
+  width: auto;                    /* Maintain aspect ratio */
+  display: block;
+  float: left;
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .logo {
+        margin-left: 10px;
+        height: 60px;
+    }
+    .nav ul {
+        margin-top: 30px;
+        font-size: 15px;
+        float: inline-start;
+        margin-left: 10px;    
+    }
+
+    .nav .cbutton {
+        /* Display */
+        margin-top: 15px;
+        float: right;
+        margin-right: 10px;
+        padding: 15px;
+        font-size: 10px;
+    }
+}
+
+/* Laptops & Large Tablets Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        margin-left: 10px;
+        height: 40px;
+    }
+
+    .nav ul {
+        margin-left: 0px;  
+        font-size: 10px;
+        float: inline-start;  
+        margin-top: 15px;
+    }
+
+    .nav .cbutton {
+        /* Display */
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 8px;
+    }
+}
+
+/* Tablets Size */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .logo {
+        margin-left: 10px;
+        height: 40px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav .cbutton {
+        /* Display */
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 8px;
+    }
+}

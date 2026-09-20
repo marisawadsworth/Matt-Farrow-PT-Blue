@@ -1,9 +1,18 @@
-/* body 
+body {
+  background-color: #080808;
+}
 
-{
-    background-color: powderblue;
-  } */
-  h1{
-    color: gold;
+h1, h2, p {
+  color: white;
+}
 
-  }
+/* Consulatation Button */
+.cbutton {
+  background-color: #168CFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5%;
+}
