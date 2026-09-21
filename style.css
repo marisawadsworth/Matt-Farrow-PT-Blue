@@ -29,3 +29,18 @@ p{
   font-size: 15px;
   border-radius: 5%;
 }
+
+/* Consulatation Button for 30 min/60 min*/
+.sbutton {
+  background-color: #080808;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 80px;
+  font-size: 15px;
+  border-radius: 5%;
+  border: 2px solid #168CFF;
+  /* margin-bottom: 5%;
+  position: absolute;
+  bottom: -20%; Distance from the bottom edge */
+}

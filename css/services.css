@@ -1,0 +1,109 @@
+.services {
+    margin-left: 20px;
+}
+
+.services h3 {
+    color: #168CFF;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    line-height: 0;
+}
+
+.services h4 {
+    color: #168CFF;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.services h1 {
+    font-size: 40px;
+}
+
+.services p {
+    font-size: 20px;
+}
+
+.services li {
+    color: white;
+}
+
+.services{
+  display:inline-flex;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.services-intro {
+    border: 1px solid #168CFF;
+}
+
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+  padding: 10px;
+  flex: 1;      /* Distributes space equally */
+  min-width: 0;
+  padding-bottom: 50px;
+}
+
+
+/* Desktop Size */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .services h3 {
+        color: #168CFF;
+        letter-spacing: 3px;
+        padding-top: 10px;
+        line-height: 0;
+    }
+}
+
+/* Laptops & Large Tablets Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .services h3 {
+        color: #168CFF;
+        letter-spacing: 0px;
+        padding-top: 10px;
+        line-height: 0;
+        font-size: 15px;
+    }
+
+    .services h1 {
+        font-size: 30px;
+    }   
+
+    .services p {
+        font-size: 17px;
+    }
+
+    .services h4 {
+        font-size: 20px;
+    }
+
+    .sbutton {
+        margin-bottom: 5%;
+        position: absolute;
+        bottom: -32%; /* Distance from the bottom edge */
+        padding: 10px 40px;
+        font-size: 15px;
+    }
+}
+
+/* Tablets Size */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    div.flex-container {
+        flex-direction: column;
+  }
+
+      /* .sbutton {
+        margin-bottom: 5%;
+        position: absolute;
+        bottom: -125%; /* Distance from the bottom edge */
+        /* padding: 10px 40px;
+        font-size: 15px; 
+    } */
+
+}

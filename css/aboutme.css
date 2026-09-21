@@ -1,9 +1,3 @@
-/* .about {
-    display: block;
-    overflow: hidden;
-    position: inline;
-} */
-
 .about {
     background: url('../img/Matthew4.jpeg') no-repeat;
     position: relative;
@@ -24,7 +18,6 @@
 }
 
 .aboutme-text {
-    /* position: inline; */
     margin-right: 20px;
     text-align: right;
     float: right;
