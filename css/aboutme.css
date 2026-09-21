@@ -1,0 +1,113 @@
+/* .about {
+    display: block;
+    overflow: hidden;
+    position: inline;
+} */
+
+.about {
+    background: url('../img/Matthew4.jpeg') no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-position: 0%;
+    background-size: 50%; 
+}
+
+/* Gradient ontop of photo */
+.about::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #000000ff 1%, #00000088 10%);
+}
+
+.aboutme-text {
+    /* position: inline; */
+    margin-right: 20px;
+    text-align: right;
+    float: right;
+    position:relative;
+}
+
+.aboutme-text h2 {
+    color: #168CFF;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    line-height: 0;
+}
+
+.aboutme-text p {
+    font-size: 20px;
+}
+
+.aboutme-img {
+    width: 500px;  /* Set your desired larger width */
+    float: right;
+}
+
+
+/* Desktop Size */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .about {
+        background-size: 60%; 
+    }
+
+    .aboutme-text h1 {
+        font-size: 25px;
+    }
+
+    .aboutme-text p {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+}
+
+/* Laptops & Large Tablets Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .about {
+        background-size: 60%; 
+    }
+
+    .aboutme-text h1 {
+        font-size: 20px;
+    }
+
+    .aboutme-text p {
+        /* letter-spacing: 1px; */
+        font-size: 10px;
+    }
+
+    .aboutme-img {
+    width: 250px;  /* Set your desired larger width */
+    float: right;
+}
+}
+
+/* Tablets Size */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .about {
+        background-size: 100%; 
+    }
+
+    .aboutme-text h1 {
+        padding-top: 25px;
+        font-size: 15px;
+    }
+
+    .aboutme-text h2 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .aboutme-text p {
+        /* letter-spacing: 1px; */
+        font-size: 8px;
+    }
+
+    .aboutme-img {
+        width: 250px;  /* Set your desired larger width */
+        float: right;
+}
+}
