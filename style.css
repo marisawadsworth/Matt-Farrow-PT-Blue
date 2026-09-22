@@ -44,3 +44,8 @@ p{
   position: absolute;
   bottom: -20%; Distance from the bottom edge */
 }
+
+.sbutton:hover {
+  background-color: #168aff7a; /* Blue */
+  color: white;
+}

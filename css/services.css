@@ -47,7 +47,7 @@ div.flex-container > div {
   padding: 10px;
   flex: 1;      /* Distributes space equally */
   min-width: 0;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 
