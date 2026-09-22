@@ -84,9 +84,6 @@ div.flex-container > div {
     }
 
     .sbutton {
-        margin-bottom: 5%;
-        position: absolute;
-        bottom: -32%; /* Distance from the bottom edge */
         padding: 10px 40px;
         font-size: 15px;
     }
@@ -97,13 +94,4 @@ div.flex-container > div {
     div.flex-container {
         flex-direction: column;
   }
-
-      /* .sbutton {
-        margin-bottom: 5%;
-        position: absolute;
-        bottom: -125%; /* Distance from the bottom edge */
-        /* padding: 10px 40px;
-        font-size: 15px; 
-    } */
-
 }

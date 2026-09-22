@@ -1,0 +1,89 @@
+.results {
+    margin-left: 20px;  
+    display: flex;
+}
+
+.results h3 {
+    color: #168CFF;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    line-height: 0;
+}
+
+.results h1 {
+    font-size: 60px;
+}
+
+.results p {
+    font-size: 18px;
+}
+
+.results-img {
+  width: 70%;
+  height: auto;        /* Maintains the image's aspect ratio */
+  float: right;
+}
+
+.results .cbutton {
+    padding: 15px 40px;
+    font-size: 15px;
+}
+
+
+/* Desktop Size */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .results-img {
+        width: 70%;
+        height: auto;        /* Maintains the image's aspect ratio */
+        float: right;
+    }
+
+    .results h1 {
+        font-size: 40px;
+    }
+}
+
+/* Laptops & Large Tablets Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .results-img {
+        width: 70%;
+        height: auto;        /* Maintains the image's aspect ratio */
+        float: right;
+    }
+
+    .results h1 {
+        font-size: 30px;
+    }
+
+    .results p {
+        font-size: 10px;
+    }
+
+    .results .cbutton {
+        padding: 10px 20px;
+        font-size: 10px;
+}
+}
+
+/* Tablets Size */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .results {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .results-img {
+        width: 100%;
+        height: auto;        /* Maintains the image's aspect ratio */
+        float: right;
+    }
+
+    .results h1 {
+        font-size: 40px;
+    }
+
+    .results p {
+        font-size: 15px;
+    }
+
+}
