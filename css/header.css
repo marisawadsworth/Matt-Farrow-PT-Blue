@@ -11,7 +11,7 @@ header a{
   text-decoration: none;
 }
 
-header a:hover{
+ul a:hover{
   color: #168CFF;
   font-weight: bold;
   text-decoration: underline;
@@ -29,10 +29,6 @@ header li{
 }
 
 .nav .cbutton {
-  background-color: #168CFF;
-  color: white;
-  border: none;
-  cursor: pointer;
   padding: 15px;
   font-size: 15px;
   border-radius: 5%;

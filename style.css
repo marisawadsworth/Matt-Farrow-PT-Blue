@@ -28,6 +28,16 @@ p{
   padding: 10px;
   font-size: 15px;
   border-radius: 5%;
+  text-decoration: none;
+}
+
+.cbutton a{
+  color: white;
+  text-decoration: none;
+}
+
+.cbutton:hover {
+  text-decoration: underline;
 }
 
 /* Consulatation Button for 30 min/60 min*/
@@ -43,6 +53,11 @@ p{
   /* margin-bottom: 5%;
   position: absolute;
   bottom: -20%; Distance from the bottom edge */
+}
+
+.sbutton a{
+  color: white;
+  text-decoration: none;
 }
 
 .sbutton:hover {
