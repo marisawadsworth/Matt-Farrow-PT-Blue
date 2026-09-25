@@ -1,0 +1,89 @@
+.footer {
+    background: url('../img/footer.jpeg') no-repeat center/cover;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer h3 {
+    color: #168CFF;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    line-height: 0;
+}
+
+.footer h1 {
+    font-size: 40px;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.footer .cbutton {
+    padding: 15px 40px;
+    font-size: 15px;
+}
+
+.text-left {
+    float: left;
+    margin-left: 20px; 
+}
+
+.right-side-content {
+    float: right;
+    margin-right: 20px; 
+    text-align: center;
+}
+
+.img-right {
+    display:inline-flex; 
+}
+
+.footer-img {
+    height: 80px;                   /* Constrain the height so it doesn't break layout */
+    width: auto;                    /* Maintain aspect ratio */
+}
+
+.social-img {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+}
+
+
+/* Desktop Size */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .footer {
+        height: 300px;
+    }
+}
+
+/* Laptops & Large Tablets Size */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        height: 300px;
+    }
+
+    .footer h1 {
+        font-size: 25px;
+    }
+}
+
+/* Tablets Size */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .footer {
+        height: 600px;
+    }
+
+    .right-side-content {
+        margin-top: 5%;
+        float: left;
+    }
+}
+
