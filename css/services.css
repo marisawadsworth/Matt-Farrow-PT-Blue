@@ -94,4 +94,8 @@ div.flex-container > div {
     div.flex-container {
         flex-direction: column;
   }
+  
+    .services h3 {
+        font-size: 14px;
+    }
 }
