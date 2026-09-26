@@ -103,7 +103,7 @@
 /* Tablets Size */
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .cover {
-        height: 350px;
+        height: 380px;
     }
 
     .cover-text h1 {
