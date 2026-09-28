@@ -57,9 +57,9 @@
 
 /* Desktop Size */
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .cover {
-        /* height: 430px; */
-    }
+    /* .cover {
+        height: 430px;
+    } */
 
     .cover-text h1 {
         font-size: 50px;
@@ -81,9 +81,9 @@
 
 /* Laptops & Large Tablets Size */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .cover {
-        /* height: 400px; */
-}
+    /* .cover {
+        height: 400px;
+} */
 
     .cover-text h1 {
         font-size: 40px;
