@@ -4,6 +4,8 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-position: 0%;
+    background-size: 50%; 
 }
 
 /* Gradient ontop of photo */
@@ -25,7 +27,7 @@
 .aboutme-text h2 {
     color: #168CFF;
     letter-spacing: 5px;
-    padding-top: 0px;
+    padding-top: 10px;
     line-height: 0;
 }
 
